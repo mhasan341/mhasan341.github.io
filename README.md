@@ -11,6 +11,7 @@ Currently learning SwiftUI and I've planned to learn watchOS in the near future.
 
 
 ![My github stats](https://github-readme-stats.vercel.app/api?username=mhasan341&show_icons=true&theme=nord)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mhasan341&exclude_repo=studybd)
 
 
 
