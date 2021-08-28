@@ -1,7 +1,8 @@
 <p align="center">
   <kbd><img width="200" height="200" src="https://avatars.githubusercontent.com/u/54240258"></kbd>
 </p>
-[![Hello visitors](https://visitor-badge.glitch.me/badge?page_id=mhasan341.mhasan341)](https://github.com/jwenjian/visitor-badge)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=mhasan341.mhasan341)
+
 <h2><p align="center">Mahmudul Hasan</p></h2>
 Skilled mobile app developer with more than 5 years of experience in native app development. 
 Developed native apps using Java and Swift for iOS and Android platforms in the past few years for clients around the world. Got 100k+ downloads on an app that I developed for Winnipeg, Canada.
