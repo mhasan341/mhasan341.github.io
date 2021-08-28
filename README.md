@@ -9,7 +9,11 @@ Developed native apps using Java and Swift for iOS and Android platforms in the 
 I've also got outstanding skills in firebase products. Cloud Firestore, Cloud Function, and Firebase Messaging are some of my key skills in Firebase.
 Currently learning SwiftUI and I've planned to learn watchOS in the near future.<br></br>
 
-   ![visitors](https://visitor-badge.glitch.me/badge?page_id=mhasan341.mhasan341)
+
+![My github stats](https://github-readme-stats.vercel.app/api?username=mhasan341&show_icons=true&theme=nord)
+
+
+
 
 <p align="center">
  <a href="https://www.linkedin.com/in/mhasan341/"><img src="https://github.com/mhasan341/mhasan341/blob/48db4175d7e7b11a5758bd977cce4236610c7723/images/linkedin-box-fill.svg">&nbsp;
@@ -17,6 +21,11 @@ Currently learning SwiftUI and I've planned to learn watchOS in the near future.
 <a href="mailto:mhasan341@gmail.com"><img src="https://github.com/mhasan341/mhasan341/blob/102476862e8c97f926af17128d8164a19321ffb1/images/mail-line.svg">
 </p>
    
+   <p align="center">
+    <a href="https://visitor-badge.glitch.me/">
+      <img align="center" src="https://page-views.glitch.me/badge?page_id=mhasan341.mhasan341">
+    </a>
+  </p>
 
 <!--
 **mhasan341/mhasan341** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
