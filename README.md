@@ -16,8 +16,8 @@ Developed native apps using Java and Swift for iOS and Android platforms in the 
 I've also got outstanding skills in firebase products. Cloud Firestore, Cloud Function, and Firebase Messaging are some of my key skills in Firebase.
 Currently learning SwiftUI and I've planned to learn watchOS in the near future.<br></br>
 
-<p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=mhasan341&show_icons=true&theme=nord">&nbsp;&nbsp;
+<p align="center">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=mhasan341&show_icons=true&theme=nord"><br><br>
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhasan341&hide=javascript,html&layout=compact">
 </p>
 
