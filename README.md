@@ -1,3 +1,6 @@
+<a href="https://visitor-badge.glitch.me/">
+      <img align="center" src="https://page-views.glitch.me/badge?page_id=mhasan341.mhasan341">
+    </a>
 <p align="center">
   <kbd><img width="200" height="200" src="https://github.com/mhasan341/mhasan341/blob/1787d158d74a32b4b20b9f14033a2befec322dfc/images/powercharting.gif"></kbd>
 </p>
@@ -22,11 +25,6 @@ Currently learning SwiftUI and I've planned to learn watchOS in the near future.
 </p>
 
 
-   <p align="center">
-    <a href="https://visitor-badge.glitch.me/">
-      <img align="center" src="https://page-views.glitch.me/badge?page_id=mhasan341.mhasan341">
-    </a>
-  </p>
 
 <!--
 **mhasan341/mhasan341** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
