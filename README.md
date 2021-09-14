@@ -8,8 +8,6 @@
 </p>
 
 
-<h2><p align="center">Mahmudul Hasan</p></h2>
-
 <p align="center">
  <a href="https://www.linkedin.com/in/mhasan341/"><img src="https://github.com/mhasan341/mhasan341/blob/48db4175d7e7b11a5758bd977cce4236610c7723/images/linkedin-box-fill.svg"></a>&nbsp;
 <a href="https://web.facebook.com/mhasan341/"><img src="https://github.com/mhasan341/mhasan341/blob/80423ebcdc0f6b0f64cace9c10cb7f38fa1752d0/images/facebook-circle-line.svg"></a>&nbsp;
