@@ -18,18 +18,20 @@
 
 Hi,
 
-I’m a skilled App Developer with over 5 years experience in mobile app creation. I specialize in native app development and have built many apps for clients across the globe with unwavering success and satisfaction.
+I’m a skilled App Developer with over 5 years experience in mobile app creation. I specialize in native app development and have built many apps for clients across the globe with unwavering success and satisfaction. Acquired 100k+ downloads on an app that I developed for Winnipeg, Canada.
 
-I use tools and software like XCode, Android Studio, PhpStorm and XAMPP, along with other less frequent tools, to create all my apps. I’m fluent in a number of different platforms and frameworks, including (but not limited to):
+I’m fluent in a number of different platforms and frameworks, including (but not limited to):
 
 - iOS
+- iPadOS
 - Android
 - Flutter
-- iPadOS
+- Laravel
 
-I can work with both Java and Swift, and I also complete backend development projects with the use of Laravel.
+I have outstanding skills in firebase products. Cloud Firestore, Cloud Function, and Firebase Messaging are some of my key skills in Firebase.
+Currently learning SwiftUI and sharpening my skills in other areas.
 
-I’m happy to take on any challenge, like when I developed the first university admissions portal in all of Bangladesh, and I’m happy to hear what you need to accomplish. So please, send me your proposal, and let’s see what we can build together.
+I’m happy to take on any challenge, like when I developed the first university admissions portal for all of Bangladesh, and I’m happy to hear what you need to accomplish. So please, send me your proposal, and let’s see what we can build together.
 
 
 <br></br>
