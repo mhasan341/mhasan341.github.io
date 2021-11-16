@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="card_styles.css"/>
+    <link rel="stylesheet" href="work_styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+    <title>Mahmud's Portfolio</title>
+
+</head>
+<body>
+
+<div class="container rounded">
+    <div class="row top-section">
+        <div class="col-md-6 d-flex justify-content-center">
+            <div class="pro-bg bg-white">
+                <img src="images/site/mahmud_fav.jpg" id="profile_img">
+            </div>
+
+        </div>
+        <div class="col-md-6 text-center text-md-left">
+            <div class="row">
+                <div class="col badge_text d-inline-block mt-3"><img class="badge_freelancer" src="images/site/pf.png"> Preferred Freelancer (top 2%)</div>
+            </div>
+            <div class="pro-name">
+                Mahmudul Hasan
+            </div>
+
+            <div class="pro-title">
+                iOS Developer<br>
+            </div>
+
+            <div class="badge_text mt-3">
+
+                    <a href="https://www.linkedin.com/in/mhasan341/"><img src="images/linkedin-box-fill.svg"></a>&nbsp;
+                    <a href="https://web.facebook.com/mhasan341/"><img src="images/facebook-circle-line.svg"></a>&nbsp;
+                    <a href="mailto:mhasan341@gmail.com"><img src="images/mail-line.svg"></a>
+
+            </div>
+
+            <a class="btn btn-primary mt-4 invisible" href="#" target="_blank">
+                Hire me on Freelancer.com
+            </a>
+
+<!--            https://www.freelancer.com/hireme/mhasan341-->
+
+
+        </div>
+    </div>
+
+    <!--About me-->
+
+        <div class="text-white p-5 text-justify">
+            Hi,<br>
+            I’m a skilled App Developer with over 5 years experience in mobile app creation. I have built many apps for clients across the globe with unwavering success and satisfaction.
+            <br><br>
+            As an iOS Engineer I worked in contract with a California based company <em>Insightful, Inc.</em>
+            <br><br>
+            Before that I worked 2 years in a startup based on <em>Winnipeg, Canada</em> & acquired <b class="text-danger">100k+</b> downloads on the app that I developed.
+
+            <br><br>Currently learning SwiftUI and sharpening my skills in other areas.
+            <br>
+        </div>
+
+    <!--Top Skills-->
+    <div class="service-section text-center">
+        Top Skills
+    </div>
+
+    <div class="row mt-5">
+
+        <!--        iOS-->
+        <div class="mx-2 my-2 p-2 border border-dark rounded d-flex col text-center justify-content-center align-items-center">
+            <div class="text-white d-flex align-items-center">
+                <div>
+                    <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjRkY2RDAwIiBkPSJNNiwxMGMwLTIuMjA5LDEuNzkxLTQsNC00aDI4YzIuMjA5LDAsNCwxLjc5MSw0LDR2MjhjMCwyLjIwOC0xLjc5MSw0LTQsNEgxMGMtMi4yMDksMC00LTEuNzkyLTQtNFYxMHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRTY0QTE5IiBkPSJNNiwxMHYxMS45NjdsNCw0YzAsMCwxMS4xNTMsMTIuODgxLDIwLDQuMDMzcy0zLjk4MS0xOS0zLjk4MS0xOWwtNS4wMDUtNUgxMEM3Ljc5MSw2LDYsNy43OSw2LDEweiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik0yNi4wMTksMTFjMTEuNDI5LDcuNjk4LDcuNzMyLDE2LjE4Nyw3LjczMiwxNi4xODdzMy4yNSwzLjYzNCwxLjkzNiw2LjgxM2MwLDAtMS4zNC0yLjIyNi0zLjU4OC0yLjIyNmMtMi4xNjYsMC0zLjQ0LDIuMjI2LTcuOCwyLjIyNkMxNC41OTEsMzQsMTAsMjUuOTY3LDEwLDI1Ljk2N2M4Ljc0Nyw1LjcsMTQuNzE5LDEuNjYzLDE0LjcxOSwxLjY2M0MyMC43NzgsMjUuMzY0LDEyLDE0LDEyLDE0YzcuMjk5LDYuMTU1LDExLDgsMTEsOGMtMS44ODItMS41NDItOC05LTgtOWM0LjIyNCw0LjIzOCwxMy4zMDcsMTAuMzc4LDEzLjMwNywxMC4zNzhDMzAuNjkxLDE2LjgzNCwyNi4wMTksMTEsMjYuMDE5LDExeiI+PC9wYXRoPjwvc3ZnPg=="/>
+                </div>
+
+                Swift
+            </div>
+
+        </div>
+
+        <!--        Firebase-->
+        <div class="mx-2 my-2 p-2 d-flex col border border-dark rounded text-center justify-content-center align-items-center">
+            <div class="text-white d-flex align-items-center">
+                <div>
+                    <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjZmY4ZjAwIiBkPSJNOCwzN0wyMy4yMzQsOC40MzZjMC4zMjEtMC42MDIsMS4xODktMC41OTEsMS40OTQsMC4wMkwzMCwxOUw4LDM3eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmZmEwMDAiIGQ9Ik04LDM2Ljk5Mmw1LjU0Ni0zNC4xOTljMC4xNDUtMC44OTUsMS4zNDctMS4wODksMS43NjctMC4yODVMMjYsMjIuOTkyTDgsMzYuOTkyeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmZjZmMDAiIGQ9Ik04LjAwOCAzNi45ODZMOC4yMDggMzYuODI5IDI1LjczNyAyMi40ODggMjAuNzkzIDEzLjAxMnoiPjwvcGF0aD48cGF0aCBmaWxsPSIjZmZjNDAwIiBkPSJNOCwzN2wyNi42NjYtMjUuNzEzYzAuNTU5LTAuNTM5LDEuNDkyLTAuMjIxLDEuNjA2LDAuNTQ3TDQwLDM3bC0xNSw4Ljc0MyBjLTAuNjA5LDAuMzQyLTEuMzUyLDAuMzQyLTEuOTYxLDBMOCwzN3oiPjwvcGF0aD48L3N2Zz4="/>
+                </div>
+
+                Firebase
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!--        SwiftUI-->
+        <div class="mx-2 my-2 p-2 d-flex col border border-dark rounded text-center justify-content-center align-items-center">
+            <div class="text-white d-flex align-items-center">
+                <div>
+                    <img alt="svgImg" src="images/site/swiftui.png" style="width: 48px;height: 48px;"/>
+                </div>
+
+                &nbsp;&nbsp;SwiftUI
+            </div>
+        </div>
+
+
+    </div>
+    <!--End Top Skills-->
+
+<!--    Work Experience-->
+<div class="portfolio-section text-center mt-5">
+    Work Experience
+</div>
+
+    <div class="row mt-5">
+        <div class="col">
+            <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+                <div class="timeline-step">
+                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
+                        <div class="inner-circle"></div>
+                        <p class="h6 mt-3 mb-1">Dec'17-Dec'19</p>
+                        <div class="h6 text-muted mb-0 mb-lg-0">
+                            Lead Developer<br>
+                            Trapspy
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-step">
+                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2004">
+                        <div class="inner-circle"></div>
+                        <p class="h6 mt-3 mb-1">Mar'20-Dec'20</p>
+                        <div class="h6 text-muted mb-0 mb-lg-0">
+                            Technical Officer<br>
+                            Study in Bangladesh
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-step">
+                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2005">
+                        <div class="inner-circle"></div>
+                        <p class="h6 mt-3 mb-1">May'21-Dec'21</p>
+                        <div class="h6 text-muted mb-0 mb-lg-0">
+                            iOS Engineer<br>
+                            Insightful, Inc.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-step">
+                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2005">
+                        <div class="inner-circle"></div>
+                        <p class="h6 mt-3 mb-1">Apr'20-Present</p>
+                        <div class="h6 text-muted mb-0 mb-lg-0">
+                            Preferred Freelancer<br>
+                            Freelancer.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--   End Work Experience-->
+
+
+
+
+<!--    Top Projects-->
+<div class="portfolio-section text-center mt-5">
+    Top Projects
+</div>
+<div class="row mt-5">
+    <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+
+                    <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <span class="blog-slider__code">26 December 2019</span>
+                    <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+                    <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+                    <a href="#" class="blog-slider__button">READ MORE</a>
+                </div>
+            </div>
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/jason-leung-798979-unsplash.webp" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <span class="blog-slider__code">26 December 2019</span>
+                    <div class="blog-slider__title">Lorem Ipsum Dolor2</div>
+                    <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+                    <a href="#" class="blog-slider__button">READ MORE</a>
+                </div>
+            </div>
+
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <span class="blog-slider__code">26 December 2019</span>
+                    <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+                    <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+                    <a href="#" class="blog-slider__button">READ MORE</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="blog-slider__pagination"></div>
+    </div>
+</div>
+<!--   End Top Projects-->
+
+
+
+
+<!--Testimonials-->
+<div class="portfolio-section text-center mt-5">
+    Testimonials
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <div id="customers-testimonials" class="owl-carousel">
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+                <div class="shadow-effect">
+<!--                    <img class="rounded-circle" src="https://media-exp1.licdn.com/dms/image/C4E03AQGaZ6UVaLiD9g/profile-displayphoto-shrink_200_200/0/1517039162803?e=1638403200&v=beta&t=WiKXGVKgu8Ehyy4d_o4oqk9fChzaWs-GjiMAFVqPVLA" alt="">-->
+
+                    <p>Mahmudul has been a contractor for the last 6 months at my company, Insightful Inc. He has developed an incredibly reliable and functional iOS social networking app using Swift, Realm, Firebase, and node.js. He’s very easy to communicate with. He is completely fluent in English and has a great sense of humor. Truly an enjoyable person to work with and a man of high integrity. He has a very positive attitude and takes great pride in the products of his craft. Mahmudul truly values his profession, loves his work, and for him income is just an afterthought. His focus is on creating the best product possible. Please feel free to contact me with questions about him. I have nothing but great things to say. Thanks MM!</p>
+                </div>
+                <div class="testimonial-name">Greg "Wyatt" Weber</div>
+                <span class="text-info">Boeing 737 First Officer at American Airlines</span>
+
+            </div>
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+                <div class="shadow-effect">
+<!--                    <img class="rounded-circle" src="https://media-exp1.licdn.com/dms/image/C5103AQG9iN49929VeA/profile-displayphoto-shrink_400_400/0/1584837828131?e=1638403200&v=beta&t=2LQpmGTSBWJGd2bQhsaOddyS5V200ppLojMU3lxut_Q" alt="">-->
+
+                    <p>I hereby pronounce Mahmudul Hasan as a competent workaholic person. His coding is very high graded and truly arranged. He is reliable and hard worker. His integrity is his identification. He completed many successful app development project in due time. I highly recommended him as programming supervisor and best freelancer in related context.</p>
+                </div>
+                <div class="testimonial-name">Dr. M Shahanul Islam</div>
+                <span class="text-info">Process Development Scientist</span>
+            </div>
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+                <div class="shadow-effect">
+<!--                    <img class="rounded-circle" src="https://media-exp1.licdn.com/dms/image/D4D35AQFGan78ByY0rQ/profile-framedphoto-shrink_800_800/0/1624908889874?e=1634148000&v=beta&t=3yG6HkjwUBgXTroErLIRZlOmhi_MgjNtUVMODTBVXUQ" alt="">-->
+
+                    <p>Mahmudul is an incredibly talented programmer. His ability to learn new skills quickly, his dedication to the end result, and his overwhelming kindness and trust make him the best programmer I've ever had the privilege of working with.</p>
+                </div>
+                <div class="testimonial-name">Nathan Labbe</div>
+                <span class="text-info">Trailblazing career founder, 3 Startups</span>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <!--End Testimonials-->
+
+
+    <!--Other Skills-->
+    <div class="pro-title text-center mt-5">
+        Other Skills
+    </div>
+
+    <div class="row mt-5">
+
+        <!--        Laravel-->
+        <div class="mx-2 my-2 p-2 d-flex col border border-dark rounded text-center justify-content-center align-items-center">
+            <div class="text-white d-flex align-items-center">
+                <div>
+                    <img src="images/site/laravel.svg" style="width: 48px;height: 48px;"/>
+                </div>
+                &nbsp;Laravel
+            </div>
+
+        </div>
+
+<!--        Flutter-->
+        <div class="mx-2 my-2 p-2 d-flex col border border-dark rounded text-center justify-content-center align-items-center">
+            <div class="text-white d-flex align-items-center">
+                <div>
+                    <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cG9seWdvbiBmaWxsPSIjNDBjNGZmIiBwb2ludHM9IjI2LDQgNiwyNCAxMiwzMCAzOCw0Ij48L3BvbHlnb24+PHBvbHlnb24gZmlsbD0iIzQwYzRmZiIgcG9pbnRzPSIzOCwyMiAyNywzMyAyMSwyNyAyNiwyMiI+PC9wb2x5Z29uPjxyZWN0IHdpZHRoPSI4LjQ4NSIgaGVpZ2h0PSI4LjQ4NSIgeD0iMTYuNzU3IiB5PSIyOC43NTciIGZpbGw9IiMwM2E5ZjQiIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgMjEgMzMpIj48L3JlY3Q+PHBvbHlnb24gZmlsbD0iIzAxNTc5YiIgcG9pbnRzPSIzOCw0NCAyNiw0NCAyMSwzOSAyNywzMyI+PC9wb2x5Z29uPjxwb2x5Z29uIGZpbGw9IiMwODQ5OTQiIHBvaW50cz0iMjEsMzkgMzAsMzYgMjcsMzMiPjwvcG9seWdvbj48L3N2Zz4="/>
+                </div>
+
+                Flutter
+            </div>
+        </div>
+    </div>
+    <!--End Other Skills-->
+
+    <div class="text-center text-muted">
+        The names and logos of third party products and companies shown on the website and used in the materials are the property of their respective owners and may also be trademarks.
+    </div>
+    <br><br>
+<div class="text-center text-muted">
+    Copyright &copy; <script>document.write(new Date().getFullYear())</script> Mahmudul Hasan
+</div>
+</div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossOrigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossOrigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+<script>
+    jQuery(document).ready(function($) {
+        "use strict";
+        //  TESTIMONIALS CAROUSEL HOOK
+        $('#customers-testimonials').owlCarousel({
+            loop: true,
+            center: true,
+            items: 3,
+            margin: 0,
+            autoplay: true,
+            dots:true,
+            autoplayTimeout: 8500,
+            smartSpeed: 450,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                1170: {
+                    items: 3
+                }
+            }
+        });
+    });
+
+    // for work experience
+    var swiper = new Swiper('.blog-slider', {
+        spaceBetween: 30,
+        effect: 'fade',
+        loop: true,
+        mousewheel: {
+            invert: false,
+        },
+        // autoHeight: true,
+        pagination: {
+            el: '.blog-slider__pagination',
+            clickable: true,
+        }
+    });
+</script>
+
+</html>
