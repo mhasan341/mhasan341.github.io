@@ -5,7 +5,7 @@
 <p align="center">
   <kbd><img width="200" height="200" src="https://github.com/mhasan341/mhasan341/blob/1787d158d74a32b4b20b9f14033a2befec322dfc/images/powercharting.gif"></kbd>
  &emsp;
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=mhasan341&show_icons=true&theme=nord">
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=mhasan341&show_icons=true&theme=nord&count_private=true">
 </p>
 
 
