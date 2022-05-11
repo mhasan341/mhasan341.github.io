@@ -1,7 +1,9 @@
 body{
     background: linear-gradient(#0d0925 38%, #001548, rgb(0, 0, 0)) no-repeat;
     min-height: 100vh;
-    }
+}
+
+
 
     .top-section{
         height: 50%;
