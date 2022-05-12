@@ -1,4 +1,18 @@
-.dark-mode{
-    background: linear-gradient(#ffffff 38%, #ffffff, rgb(0, 0, 0)) no-repeat;
+body{
+    background-color: #292c35;
+    min-height: 100vh;
+    color: white;
 }
 
+.fa-brands, .fa-solid{
+    color: white;
+}
+
+.resume{
+    color: white;
+    border: thin solid white;
+}
+
+.body-background{
+    background-color: #292c35;
+}

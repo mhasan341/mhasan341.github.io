@@ -1,77 +1,64 @@
-body{
-    background: linear-gradient(#0d0925 38%, #001548, rgb(0, 0, 0)) no-repeat;
-    min-height: 100vh;
+.top-section {
+    height: 50%;
+    padding: 5%;
+    margin: 5% 0;
+}
+
+.pro-bg {
+    height: 14rem;
+    width: 14rem;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px #4e4a67, -2px -2px 10px #3a78fe;
+}
+
+#profile_img {
+    height: 14rem;
+    width: 14rem;
+    border-radius: 100%;
 }
 
 
-
-    .top-section{
-        height: 50%;
-        padding: 5%;
-        margin: 5% 0;
-
-    }
-
-    .pro-bg{
-        height: 16rem;
-        width: 16rem;
-        border-radius: 100%;
-        box-shadow:1px 1px 10px #f39d08,-2px -2px 10px #3a78fe;
-    }
-    #profile_img{
-        height: 16rem;
-        width: 16rem;
-        border-radius: 100%;
-    }
+.pro-name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-top: 2%;
+}
 
 
-    .pro-name{
-        font-family: 'Playfair Display', serif;
-        color: white;
-        font-weight: 700;
-        font-size: 2.5rem;
-        margin-top: 2%;
-    }
+.pro-title {
+    font-family: 'Montserrat', serif;
+    font-weight: 400;
+}
+
+.badge_freelancer {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.badge_text {
+    font-size: 0.75rem;
+}
 
 
-    .pro-title{
-        font-family: 'Montserrat', serif;
-        color: #FFFFFFF0;
-        font-weight: 400;
-        font-size: 1.5rem;
-    }
+/*Service Section*/
 
-    .badge_freelancer{
-        height: 1.5rem;
-        width: 1.5rem;
-    }
-    .badge_text{
-        color: white;
-        font-size: 0.75rem;
-    }
+.service-section {
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', sans-serif;
+    margin-top: 5%;
+}
 
-    /*Service Section*/
+.service-img {
+    height: 3rem;
+    width: 3rem;
+    padding: 5%;
+}
 
-    .service-section{
-        font-size: 2rem;
-        font-family: 'Playfair Display', sans-serif;
-        color: white;
-        margin-top: 5%;
-    }
-
-    .service-img{
-        height: 3rem;
-        width: 3rem;
-        padding: 5%;
-    }
-
-    .portfolio-section{
-        font-size: 2rem;
-        font-family: 'Playfair Display', sans-serif;
-        color: white;
-        margin-top: 10%;
-    }
-
+.portfolio-section {
+    font-size: 2rem;
+    font-family: 'Playfair Display', sans-serif;
+    margin-top: 10%;
+}
 
 
 /*TESTIMONIALS*/
@@ -131,7 +118,21 @@ body{
     margin-right: 60px
 }
 
-@media screen and (max-width: 600px) {
+
+/*xs gap .5rem, other gap 1rem*/
+
+/*mobile xs less than 767*/
+
+@media (max-width: 767px) {
+
+    .pro-name {
+        font-size: 1.5rem;
+    }
+    .pro-title{
+        font-size: 1rem;
+    }
+
+
     .card-main {
         padding: 10px;
     }
@@ -166,5 +167,35 @@ body{
 
     .close-quotes {
         margin-right: 0px
+    }
+}
+
+/*tablet sm equal or greater than 768*/
+@media (min-width: 768px) {
+    .pro-name {
+        font-size: 2rem;
+    }
+    .pro-title{
+        font-size: 1rem;
+    }
+}
+
+/*small laptop md equal or greater than 992*/
+@media (min-width: 992px) {
+    .pro-name {
+        font-size: 2.25rem;
+    }
+    .pro-title{
+        font-size: 1.25rem;
+    }
+}
+
+/*laptop/desktop lg equal or greater than 1200*/
+@media (min-width: 1200px) {
+    .pro-name {
+        font-size: 2.5rem;
+    }
+    .pro-title{
+        font-size: 1.5rem;
     }
 }
