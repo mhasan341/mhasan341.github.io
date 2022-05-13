@@ -1,168 +1,112 @@
 body{
-    background: linear-gradient(#0d0925 38%, #001548, rgb(0, 0, 0)) no-repeat;
-    min-height: 100vh;
-    }
+    font-family: 'Helvetica','Arial', sans-serif;
+}
+.top-section {
+    height: 50%;
+    padding: 2%;
+    margin: 2% 0;
+}
 
-    .top-section{
-        height: 50%;
-        padding: 5%;
-        margin: 5% 0;
+.pro-bg {
+    height: 10rem;
+    width: 10rem;
+    box-shadow: 1px 1px 10px #4e4a67, -2px -2px 10px #3a78fe;
+    margin-top: 1rem;
+    border-radius: 100%;
+}
 
-    }
-
-    .pro-bg{
-        height: 16rem;
-        width: 16rem;
-        border-radius: 100%;
-        box-shadow:1px 1px 10px #f39d08,-2px -2px 10px #3a78fe;
-    }
-    #profile_img{
-        height: 16rem;
-        width: 16rem;
-        border-radius: 100%;
-    }
-
-
-    .pro-name{
-        font-family: 'Playfair Display', serif;
-        color: white;
-        font-weight: 700;
-        font-size: 2.5rem;
-        margin-top: 2%;
-    }
+#profile_img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+}
 
 
-    .pro-title{
-        font-family: 'Montserrat', serif;
-        color: #FFFFFFF0;
-        font-weight: 400;
+.pro-name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+
+.pro-title {
+
+    font-weight: 400;
+}
+
+.badge_freelancer {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.badge_text {
+    font-size: 0.75rem;
+}
+
+.portfolio-section {
+    font-size: 1.5rem;
+    font-family: 'Tahoma','Trebuchet MS','Arial', sans-serif;
+    font-weight: 700;
+}
+
+.work-location{
+    font-size: small;
+    font-weight: 700;
+}
+
+
+
+.about-me {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+a:link, a:hover {
+    text-decoration: none;
+}
+
+/*xs gap .5rem, other gap 1rem*/
+
+/*mobile xs less than 767*/
+
+@media (max-width: 767px) {
+
+    .pro-name {
         font-size: 1.5rem;
     }
-
-    .badge_freelancer{
-        height: 1.5rem;
-        width: 1.5rem;
-    }
-    .badge_text{
-        color: white;
-        font-size: 0.75rem;
+    .pro-title{
+        font-size: 1rem;
     }
 
-    /*Service Section*/
 
-    .service-section{
+}
+
+/*tablet sm equal or greater than 768*/
+@media (min-width: 768px) {
+    .pro-name {
         font-size: 2rem;
-        font-family: 'Playfair Display', sans-serif;
-        color: white;
-        margin-top: 5%;
     }
-
-    .service-img{
-        height: 3rem;
-        width: 3rem;
-        padding: 5%;
+    .pro-title{
+        font-size: 1rem;
     }
-
-    .portfolio-section{
-        font-size: 2rem;
-        font-family: 'Playfair Display', sans-serif;
-        color: white;
-        margin-top: 10%;
-    }
-
-
-
-/*TESTIMONIALS*/
-
-.card-main {
-    padding: 50px;
-    border-radius: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    box-shadow: 0px 4px 8px 0px #283593
 }
 
-.card-0 {
-    color: #fff;
-    background-color: #536DFE;
-    position: relative;
-    margin-left: 70px;
-    border-radius: 10px;
-    min-height: 312px
-}
-
-.carousel-indicators li {
-    cursor: pointer;
-    border-radius: 50% !important;
-    width: 10px;
-    height: 10px
-}
-
-.profile {
-    color: #000;
-    background-color: #FFD54F;
-    position: absolute;
-    left: -70px;
-    top: 17%;
-    border-radius: 0px 8px 0px 8px;
-}
-
-.profile-pic {
-    width: 120px;
-    height: 120px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px
-}
-
-.open-quotes {
-    margin-left: 150px;
-    margin-top: 100px
-}
-
-.content {
-    margin-left: 170px;
-    margin-right: 80px
-}
-
-.close-quotes {
-    margin-bottom: 100px;
-    margin-right: 60px
-}
-
-@media screen and (max-width: 600px) {
-    .card-main {
-        padding: 10px;
+/*small laptop md equal or greater than 992*/
+@media (min-width: 992px) {
+    .pro-name {
+        font-size: 2.25rem;
     }
-
-    .card-0 {
-        min-height: 432px;
-        position: relative;
-        margin-left: 10px;
-        border-radius: 10px;
+    .pro-title{
+        font-size: 1.25rem;
     }
+}
 
-    .profile {
-        display: flex;
-        position: relative;
-        margin: auto;
+/*laptop/desktop lg equal or greater than 1200*/
+@media (min-width: 1200px) {
+    .pro-name {
+        font-size: 2.5rem;
     }
-
-    .profile-pic {
-        width: 90px;
-        height: 90px
-    }
-
-    .open-quotes {
-        margin-left: 0px
-    }
-
-    .content {
-        width: 100%;
-        margin-left: 0px;
-        margin-right: 50px
-    }
-
-    .close-quotes {
-        margin-right: 0px
+    .pro-title{
+        font-size: 1.5rem;
     }
 }

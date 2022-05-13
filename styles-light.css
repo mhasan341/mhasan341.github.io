@@ -1,0 +1,26 @@
+body{
+    background: rgb(255, 255, 255);
+    min-height: 100vh;
+    color: black;
+}
+
+.fa-brands, .fa-solid{
+    color: #4e4a67;
+}
+
+.resume{
+    color: white;
+    border: thin solid #4e4a67;
+}
+
+.body-background{
+    background: rgb(241, 241, 241);
+}
+
+.topbar{
+    background: rgba(241, 241, 241,0.85);
+}
+
+.color-secondary{
+    color: rgba(0, 0, 0, 0.7);
+}
