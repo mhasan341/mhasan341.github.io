@@ -16,3 +16,11 @@ body{
 .body-background{
     background: rgb(241, 241, 241);
 }
+
+.topbar{
+    background: rgba(241, 241, 241,0.85);
+}
+
+.color-secondary{
+    color: rgba(0, 0, 0, 0.7);
+}
