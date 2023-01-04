@@ -1,60 +1,20 @@
-<a href="https://visitor-badge.glitch.me/">
-      <img align="center" src="https://page-views.glitch.me/badge?page_id=mhasan341.mhasan341">
-    </a>
-    <br></br>
-<p align="center">
-  <kbd><img width="200" height="200" src="https://github.com/mhasan341/mhasan341/blob/1787d158d74a32b4b20b9f14033a2befec322dfc/images/powercharting.gif"></kbd>
- &emsp;
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=mhasan341&show_icons=true&theme=nord&count_private=true">
-</p>
+# 💫 About Me:
+I’m a skilled App Developer with over 5 years experience in mobile app creation.<br>I specialize in native app development and have built many apps for clients across the globe with unwavering success and satisfaction. <br>Acquired 100k+ downloads on an app that I developed for Winnipeg, Canada.<br><br>I’m happy to take on any challenge, like when I developed the first university admissions portal for all of Bangladesh, and I’m happy to hear what you need to accomplish.<br>So please, send me your proposal, and let’s see what we can build together.
 
 
-<p align="center">
- <a href="https://www.linkedin.com/in/mhasan341/"><img src="https://github.com/mhasan341/mhasan341/blob/48db4175d7e7b11a5758bd977cce4236610c7723/images/linkedin-box-fill.svg"></a>&nbsp;
-<a href="https://web.facebook.com/mhasan341/"><img src="https://github.com/mhasan341/mhasan341/blob/80423ebcdc0f6b0f64cace9c10cb7f38fa1752d0/images/facebook-circle-line.svg"></a>&nbsp;
+## 🌐 Socials:
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://web.facebook.com/mhasan341/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/mhasan341/)
 <a href="mailto:mhasan341@gmail.com"><img src="https://github.com/mhasan341/mhasan341/blob/102476862e8c97f926af17128d8164a19321ffb1/images/mail-line.svg"></a>
-</p>
 
+# 💻 Tech Stack:
+![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Realm](https://img.shields.io/badge/Realm-39477F?style=for-the-badge&logo=realm&logoColor=white) ![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) 	![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=mhasan341&theme=nord&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=mhasan341&theme=nord&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=mhasan341&theme=nord&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-Hi,
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=mhasan341&theme=nord&no-frame=true&no-bg=false&margin-w=4)
 
-I’m a skilled App Developer with over 5 years experience in mobile app creation. I specialize in native app development and have built many apps for clients across the globe with unwavering success and satisfaction. Acquired 100k+ downloads on an app that I developed for Winnipeg, Canada.
-
-I’m fluent in a number of different platforms and frameworks, including (but not limited to):
-
-- iOS
-- iPadOS
-- Android
-- Flutter
-- Laravel
-
-I have outstanding skills in firebase products. Cloud Firestore, Cloud Function, and Firebase Messaging are some of my key skills in Firebase.
-Currently learning SwiftUI and sharpening my skills in other areas.
-
-I’m happy to take on any challenge, like when I developed the first university admissions portal for all of Bangladesh, and I’m happy to hear what you need to accomplish. So please, send me your proposal, and let’s see what we can build together.
-
-
-<br></br>
-
-
-
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhasan341&hide=javascript,html&layout=compact">
-</p>
-
-
-
-<!--
-**mhasan341/mhasan341** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=light)
