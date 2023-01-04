@@ -8,6 +8,18 @@ body{
     color: #4e4a67;
 }
 
+.header {
+    color: darkgreen;
+    border-left: 5px solid darkgreen;
+    padding-left: 1rem;
+}
+
+.header-right {
+    color: darkgreen;
+    border-right: 5px solid darkgreen;
+    padding-right: 1rem;
+}
+
 .resume{
     color: white;
     border: thin solid #4e4a67;

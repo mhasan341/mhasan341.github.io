@@ -53,16 +53,23 @@ body{
     font-weight: 700;
 }
 
-
+.border-teal {
+    border-left-style: solid;
+    border-color: green;
+}
 
 .about-me {
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 
 a:link, a:hover {
     text-decoration: none;
+}
+
+.small-font {
+    font-size: small;
 }
 
 /*xs gap .5rem, other gap 1rem*/
