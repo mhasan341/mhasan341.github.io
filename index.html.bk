@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
+
+
+    <link rel="stylesheet" href="toggle_switch.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+
+    <!--    dark or light theme-->
+    <link id="style1" rel="stylesheet" href="styles-light.css"/>
+
+    <link rel="stylesheet" href="testimonial-style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+    <title>Mahmud's Portfolio</title>
+
+</head>
+<body class="container">
+<!--main site starts-->
+<div class="rounded shadow-lg">
+
+<!--    Picture, Headline-->
+    <div class="row top-section">
+        <div class="col text-center text-md-left">
+            <div>
+                <div class="pro-name mt-3">
+                    Mahmudul Hasan
+                </div>
+                <div class="pro-title">
+                    iOS Developer | Swift | SwiftUI<br>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-sm-4 d-flex justify-content-center">
+            <div class="badge_text mt-5">
+                <div class="py-1 list-inline-item"><a class="d-flex align-items-center color-secondary" href="https://github.com/mhasan341" target="_blank"><i class="fa-brands fa-github-square fa-2x"></i>&nbsp;<span class="d-none d-sm-block">Github</span></a></div>
+                <div class="py-1 list-inline-item"><a class="d-flex align-items-center color-secondary" href="https://www.linkedin.com/in/mhasan341/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i>&nbsp;<span class="d-none d-sm-block">Linkedin</span></a></div>
+
+                <div class="py-1 list-inline-item"><a class="d-flex align-items-center color-secondary" href="mailto:mm@letstangerine.com" target="_blank"><i class="fa-solid fa-square-envelope fa-2x"></i>&nbsp;<span class="d-none d-sm-block">Email</span></a></div>
+                <div class="py-1 list-inline-item"><a class="d-flex align-items-center color-secondary" href="https://wa.me/+8801738709348"  target="_blank"><i class="fa-brands fa-whatsapp-square fa-2x"></i>&nbsp;<span class="d-none d-sm-block">Whatsapp</span></a></div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+<!--    About, Work, Skill, Education, Language -->
+
+
+<!--    Work experience and skills, split into two column-->
+        <div class="row">
+            <div class="col-md-8">
+                <!--  The header-->
+                <div class="portfolio-section ml-3 mb-3 header mt-3">
+                    Work Experience
+                </div>
+                <!--Actual Experience-->
+                <div class="experience">
+                    <div>
+
+                        <!--                    Droncall Ltd-->
+                        <div class="p-3 border-left border-secondary">
+                            <h5><strong>Software Engineer - DrOnCall Ltd. (Remote)</strong></h5>
+                            <p class="work-location color-secondary">Al Maryah Island, Abu Dhabi, United Arab Emirates &mdash; (Sep&rsquo;24 - Present) - <a href="https://housecall.ae">Housecall</a></p>
+                            <p>A primary care facility that delivers medical services at-home, in-office, and virtually.</p>
+                            <ul>
+                                <li>Developing and maintaining the iOS app using SwiftUI, ensuring performance and adherence to Apple’s design guidelines.</li>
+                                <li>Collaborating with team members to implement features, debug issues, and optimize app functionality.</li>
+                                <li>Creating reusable components and ensuring localization and accessibility compliance.</li>
+                                <li>Participating in code reviews, testing, and debugging to ensure high-quality deliverables.</li>
+                                <li class="list-unstyled color-secondary">Tech Stack: SwiftUI, Swift</li>
+                            </ul>
+                        </div>
+
+                        <br>
+
+                        <!--                    Insightful Inc-->
+                        <div class="p-3 border-left border-secondary">
+                            <h5><strong>Full Stack iOS Engineer - Insightful Inc. (Contract)</strong></h5>
+                            <p class="work-location color-secondary">San Diego, California &mdash; (Jun&rsquo;21 - Aug&rsquo;24) - <a href="https://apps.apple.com/us/app/tangerine-insight/id1570304842">Appstore</a></p>
+                            <p>Tangerine, a photo sharing and review social networking app in Swift.</p>
+                            <ul>
+                                <li>Significantly improved app performance by reducing 33% of unnecessary code and implementing memory management techniques using Instruments, achieving a 50% performance increase.</li>
+                                <li>Optimized Firestore read/write operations, resulting in reduced costs by implementing efficient query structures.</li>
+                                <li>Implemented Firebase Cloud Functions to automate filtering and administrative tasks, also enhanced app functionality and efficiency by using machine learning models.</li>
+                                <br>
+                                <li class="list-unstyled color-secondary">Tech Stack: Swift, SwiftUI, Firebase, Realm, Core ML, Image Processing, NodeJS</li>
+                            </ul>
+                        </div>
+
+                        <br>
+                        <!--                    Katex-->
+                        <div class="p-3 border-left border-secondary">
+                            <h5><strong>Lead iOS Developer - Katex Entertainment Ltd. (Contract)</strong></h5>
+                            <p class="work-location color-secondary">Dhaka, Bangladesh &mdash; (Jun&rsquo;22 - Dec&rsquo;22) - <a href="https://github.com/mhasan341/bazaarface-Swift-ProgUI" target="_blank">Github</a></p>
+                            <p>Bazaarface, an e-commerce application with integrated social media features.</p>
+                            <ul>
+                                <li>Actively contributed to continuous improvement efforts by providing valuable suggestions and actively engaging in problem-solving activities to enhance teamwork.</li>
+                                <li>Demonstrated consistent dedication and hard work, resulting in improved operational efficiency and effectiveness.</li>
+                                <br>
+                                <li class="list-unstyled color-secondary">Tech Stack: Swift, Firebase, Realm, GraphQL</li>
+                            </ul>
+                        </div>
+
+                        <br>
+
+                        <!--                    Jigger-->
+                        <div class="p-3 border-left border-secondary">
+                            <h4><strong>iOS Developer - Britannia Hotel (Remote)</strong></h4>
+                            <p class="work-location color-secondary">Trondheim, Norway - (Jun&rsquo;20-May&rsquo;21) - <a href="https://github.com/mhasan341/jigger-demo" target="_blank">Github</a></p>
+                            <p>Jigger, an exclusive iPadOS app for Britannia Hotel's bar.</p>
+                            <ul>
+                                <li>Led the end-to-end development of the app, encompassing the creation of an intuitive admin panel and integration with the bar's product database. The app served as a sophisticated inventory management system, enhancing operational efficiency.</li>
+                                <li>Implemented essential functionalities such as advanced search capabilities, sorting options, seamless CRUD (Create, Read, Update, Delete) operations, and biometric authentication.</li>
+                                <li>Built an admin panel using Flutter with different roles.</li>
+                                <br>
+                                <li class="list-unstyled color-secondary">Tech Stack: Swift, Firebase, Realm, Flutter (Web)</li>
+                            </ul>
+                        </div>
+
+                        <br>
+
+                        <!--                    Trapspy-->
+                        <div class="p-3 border-left border-secondary">
+                            <h4><strong>Application Developer - TrapSpy (Remote)</strong></h4>
+                            <p class="work-location color-secondary">Winnipeg, Canada &mdash; (Dec&rsquo;17 - Dec&rsquo;19) - <a href="https://github.com/mhasan341/Trapspy-Java-Swift-Old" target="_blank"> Github</a> | <a href="https://apps.apple.com/us/app/trapspy/id1403138498" target="_blank"> AppStore</a> | <a href="https://play.google.com/store/apps/details?id=com.kibibyteapps.trapspy&hl=en_CA" target="_blank"> Playstore</a></p>
+                            <p>Developed a cloud-sourced report sharing app that empowered users to create reports on hazards, obstacles, and cost-saving opportunities, resulting in increased safety and significant savings.</p>
+                            <ul>
+                                <li>Increased user engagement by 70% through the implementation of location-based photo push notifications.</li>
+                                <li>Featured in local news for its innovative approach and impact. </li>
+                                <li>Garnered over <b style="color:red">100,000+</b>  downloads from the pilot city, showcasing its popularity and widespread adoption.</li>
+                                <br>
+                                <li class="list-unstyled color-secondary">Tech Stack: Swift, Firebase, Java, NodeJS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--   End Work Experience-->
+            </div>
+
+
+            <!--        Anything for right column, goes below-->
+            <!--   Skills-->
+            <div class="col-md-4 border-teal experience">
+                <div class="portfolio-section text-sm-right mr-5 mb-3 ml-5 mt-5 mt-sm-0 header-right">
+                    Skills
+                </div>
+
+                <div class="color-secondary p-3 ml-5">
+
+                    <b><strong>Programming Languages</strong></b>
+                    <li class="font-weight-light">Swift</li>
+                    <li class="font-weight-light">Dart</li>
+                    <br>
+                    <b><strong>Platform/Framework</strong></b>
+                    <li class="font-weight-light">SwiftUI</li>
+                    <li class="font-weight-light">CoreML</li>
+                    <li class="font-weight-light">CoreAnimation</li>
+                    <li class="font-weight-light">SwiftData</li>
+                    <li class="font-weight-light">Apollo GraphQL</li>
+                    <li class="font-weight-light">Firebase</li>
+                    <li class="font-weight-light">Git</li>
+                    <li class="font-weight-light">Google Maps Platform</li>
+                    <li class="font-weight-light">Flutter</li>
+                    <li class="font-weight-light">Laravel</li>
+                    <li class="font-weight-light">Bootstrap</li>
+                    <br>
+                    <b><strong>CI/CD</strong></b>
+                    <br>
+                    <li class="font-weight-light">XCCloud</li>
+                    <li class="font-weight-light">Fastlane</li>
+                    <li class="font-weight-light">Github Actions</li>
+                    <br>
+                    <b><strong>Databases</strong></b>
+                    <li class="font-weight-light">Realm</li>
+                    <li class="font-weight-light">MySQL</li>
+                    <br>
+                    <b><strong>Soft Skills</strong></b>
+                    <br>
+                    <li class="font-weight-light">Time Management</li>
+                    <li class="font-weight-light">Team Work</li>
+                    <li class="font-weight-light">Problem Solving</li>
+                    <li class="font-weight-light">Critical Thinking</li>
+                </div>
+                <!--  End Skills-->
+
+                <!--  Languages-->
+                <div class="portfolio-section text-sm-right mr-5 mb-3 ml-5 mt-5 header-right">
+                    Languages
+                </div>
+
+                <div class="p-3 font-weight-lighter ml-5">
+                    <li>English <span class="color-secondary">(Professional)</span></li>
+                    <li>Bengali <span class="color-secondary">(Native)</span></li>
+<!--                    <li>Arabic <span class="color-secondary">(Revising..)</span></li>-->
+<!--                    <li>Turkish <span class="color-secondary">(Learning..)</span></li>-->
+                </div>
+                <!--  End Languages-->
+
+                <!--            EDUCATION-->
+                <div class="portfolio-section text-sm-right mr-5 mb-3 ml-5 mt-5 header-right">
+                    Education
+                </div>
+
+                <div class="p-3 font-weight-light ml-5">
+
+                    <b>MSc in Disaster Management</b>
+                    <p class="small-font">Begum Rokeya University, Rangpur
+                        <br>(2019-2020)
+                        <br></p>
+                    <b>BSc in Disaster Management</b>
+                    <p class="small-font">Begum Rokeya University, Rangpur
+                        <br>(2016-2019) </p>
+                </div>
+                <!--       End     EDUCATION-->
+
+
+                <!-- PUT NEW LEFT SIDE ITEMS ABOVE -->
+            </div>
+        </div>
+
+
+<!--    Two column ends above-->
+<div class="portfolio-section ml-3 mt-5 header">
+    Other Projects
+</div>
+
+    <!--  Proj-->
+    <div>
+        <!--  Projects-->
+        <div class="row mx-2 experience">
+            <!--                UTrack-->
+            <div class="p-3 col-sm-6">
+                <b>Pragati UTrack</b> - <a href="https://apps.apple.com/in/app/pragati-utrack/id6472572087" target="_blank">AppStore</a> <br>
+                <div class="text-justify">
+                    Vehicle owners, parents, delivery, transportation, trucking, mobile service companies, private investigators and many others can all benefit from Utrack software and service. Knowing where your vehicles, employees and physical assets are in real-time on your desktop computer, mobile is a valuable management and cost-control tool.<br><br>
+                    <li class="list-unstyled color-secondary">SwiftUI · Realm</li>
+                </div>
+            </div>
+
+
+
+            <div class="p-3 col-sm-6">
+                <b>NamazStart</b> - <a href="https://apps.apple.com/ch/app/namazstart/id6444265376" target="_blank">AppStore</a> | <a href="https://play.google.com/store/apps/details?id=me.mahmudulhasan.salat_app" target="_blank">Playstore</a><br>
+                <div class="text-justify">
+                    The NamazStart app is a mobile application designed to teach and guide Muslims on how to perform their daily prayers, also known as Salah or Namaz. The app provides step-by-step instructions on how to perform each of the five daily prayers, along with helpful features.<br><br>
+                    <li class="list-unstyled color-secondary">Flutter · Getx</li>
+                </div>
+            </div>
+
+
+            <!--               Study in Bangladesh-->
+
+        </div>
+        <div class="row mx-2 experience">
+            <!--                This site-->
+            <div class="p-3 col-sm-6">
+                <b>This Website</b> - <a href="https://github.com/mhasan341/mhasan341.github.io" target="_blank">Github</a> <br>
+                <div class="text-justify">
+                    This site is hosted on GitHub and source code is available as well.
+                    Feel free to fork this site and contribute. If you use the source code, please put a credit somewhere visible.
+                    <br><br>
+                    <li class="list-unstyled color-secondary">JavaScript · HTML · CSS</li>
+                </div>
+            </div>
+
+            <!--                BARTNR-->
+            <!--            <div class="p-3 col-sm-6">-->
+            <!--                <b>Bartnr</b> - <a href="" target="_blank">Github</a> <br>-->
+            <!--                <div class="text-justify">-->
+            <!--                    A location based report sharing app to alert others using push notification about intruders in restaurants and local area.-->
+            <!--                    Report includes picture, clothing description (type and color), and text.-->
+            <!--                    <br><br>-->
+            <!--                    <li class="list-unstyled color-secondary">Tech Stack: Flutter, Firebase, NodeJS</li>-->
+            <!--                </div>-->
+            <!--            </div>-->
+
+            <!--               Study in Bangladesh-->
+            <div class="p-3 col-sm-6">
+                <b>Study in Bangladesh</b> - <a href="http://studyinbangladesh.com.bd/" target="_blank">Web Link</a> <br>
+                <div class="text-justify">
+                    Study in Bangladesh is maintained by Global Representatives of Bangladesh Education and Institutions tasked with promoting Bangladesh abroad supported by the Government of the People's republic of Bangladesh.
+                    <br><br>
+                    <li class="list-unstyled color-secondary">JavaScript · Bootstrap · Back-End Web Development · Laravel</li>
+                </div>
+            </div>
+        </div>
+        <!--   End Projects-->
+
+
+    </div>
+    <!--  End Proj-->
+
+
+
+
+    <!--End Testimonials-->
+
+<div class="row mt-5">
+    <div class="small text-justify text-muted col pb-5 px-5" style="margin-top: 5em;">
+        The names and logos of third party products and companies shown on the website and used in the materials are the property of their respective owners and may also be trademarks.
+    </div>
+
+<!--    <div class="col">-->
+<!--        <img src="https://github-readme-stats.vercel.app/api?username=mhasan341&show_icons=true&count_private=true">-->
+
+<!--    </div>-->
+
+</div>
+
+    <br><br>
+<div class="text-center text-muted mb-5 pb-5">
+    Copyright &copy; <script>document.write(new Date().getFullYear())</script> Mahmudul Hasan
+    <!--    Visitor Count-->
+    <img class="" src="https://page-views.glitch.me/badge?page_id=mahmudulhasan.me">
+
+
+</div>
+</div>
+
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+<script type="text/javascript">
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const dl1 = document.getElementById("dl_btn");
+        const dl2 = document.getElementById("dl_btn2");
+
+        dl1.style.color = "#fff";
+        dl2.style.color = "#fff";
+    }, false);
+
+
+
+    const checkbox = document.getElementById('checkbox');
+
+    checkbox.addEventListener('change', ()=>{
+        toggle();
+    })
+
+    function toggle() {
+        const el = document.getElementById("style1");
+
+        if (el.href.match("styles-dark.css")) {
+            el.href = "styles-light.css";
+        }
+        else {
+            el.href = "styles-dark.css";
+
+        }
+    }
+
+    $(document).ready(function(){
+        $("#testimonial-slider").owlCarousel({
+            items:1,
+            itemsDesktop:[1000,1],
+            itemsDesktopSmall:[979,1],
+            itemsTablet:[768,1],
+            pagination:true,
+            transitionStyle:"backSlide",
+            autoPlay:true
+        });
+    });
+</script>
+
+</html>
