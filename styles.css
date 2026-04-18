@@ -61,6 +61,17 @@ body.dark-mode {
     --hero-subtitle: #cbd5e1;
 }
 
+body.dark-mode .project-metric {
+    background: rgba(15, 23, 42, 0.55);
+    border-color: rgba(148, 163, 184, 0.12);
+}
+
+body.dark-mode .project-eyebrow {
+    color: #d1fae5;
+    background: rgba(6, 78, 59, 0.45);
+    border-color: rgba(16, 185, 129, 0.35);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -581,39 +592,105 @@ body.dark-mode .dock {
     height: 100%;
 }
 
+.flagship-card {
+    background:
+        radial-gradient(circle at top right, rgba(16, 185, 129, 0.2), transparent 38%),
+        radial-gradient(circle at left center, rgba(20, 184, 166, 0.16), transparent 34%),
+        var(--card-bg);
+    border-color: rgba(16, 185, 129, 0.24);
+    box-shadow: var(--shadow-lg);
+    isolation: isolate;
+}
+
+.flagship-border-trail {
+    display: none;
+}
+
 .project-card:hover {
     transform: translateY(-10px) scale(1.02);
     box-shadow: var(--shadow-lg);
     border-color: var(--primary-color);
 }
 
+.flagship-card:hover {
+    border-color: rgba(16, 185, 129, 0.42);
+    box-shadow: var(--shadow-lg);
+}
+
 .project-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 1.5rem;
+    display: block;
+    margin-bottom: 1.25rem;
     z-index: 2;
 }
 
+.project-header > :first-child {
+    display: block;
+}
+
+.project-title-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.flagship-card .project-title-block {
+    position: relative;
+    padding-top: 1.15rem;
+}
+
+.project-eyebrow {
+    align-self: flex-start;
+    padding: 0.4rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #065f46;
+    background: rgba(236, 253, 245, 0.92);
+    border: 1px solid rgba(16, 185, 129, 0.28);
+}
+
+.flagship-card .project-eyebrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-82%);
+    z-index: 4;
+}
+
 .project-title {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 800;
     color: var(--heading-color);
     line-height: 1.2;
 }
 
 .project-downloads {
-    background: rgba(79, 70, 229, 0.1);
-    color: var(--primary-color);
-    padding: 0.5rem 1rem;
-    border-radius: 50px;
-    font-size: 0.8rem;
-    font-weight: 700;
-    border: 1px solid rgba(79, 70, 229, 0.2);
+    background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%);
+    color: #eef2ff;
+    padding: 0.5rem 0.95rem 0.48rem;
+    border-radius: 0 28px 0 14px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    border: 0;
     text-align: center;
-    min-width: 120px;
-    /* Ensure enough width to show centering */
+    min-width: 0;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: none;
     display: inline-block;
+    z-index: 3;
+}
+
+.flagship-card .project-downloads {
+    background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+    color: #fff;
+    padding: 0.54rem 0.92rem;
+    min-width: 150px;
+    box-shadow: none;
 }
 
 .project-description {
@@ -623,6 +700,39 @@ body.dark-mode .dock {
     flex-grow: 1;
     font-size: 1.05rem;
     z-index: 2;
+}
+
+.project-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin: -0.25rem 0 1.5rem;
+    z-index: 2;
+}
+
+.project-metric {
+    padding: 1rem;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.project-metric-value {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--heading-color);
+    line-height: 1;
+}
+
+.project-metric-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--text-color);
+    opacity: 0.85;
+    letter-spacing: 0.01em;
 }
 
 .project-tech {
@@ -993,6 +1103,35 @@ body.dark-mode .dock {
 
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+
+    .project-metrics {
+        grid-template-columns: 1fr;
+    }
+
+    .project-header {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+
+    .project-header > :first-child {
+        display: block;
+    }
+
+    .project-downloads {
+        position: static;
+        align-self: flex-start;
+        border-radius: 999px;
+    }
+
+    .flagship-card .project-title-block {
+        padding-top: 0;
+    }
+
+    .flagship-card .project-eyebrow {
+        position: static;
+        transform: none;
     }
 
     .experience-header {
