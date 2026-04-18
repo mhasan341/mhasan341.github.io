@@ -1,7 +1,7 @@
 /* Variables & Reset */
 :root {
     /* Premium Palette */
-    --bg-color: #f8fafc;
+    --bg-color: rgb(247 248 250);
     --text-color: #334155;
     --heading-color: #0f172a;
     --card-bg: rgba(255, 255, 255, 0.8);
