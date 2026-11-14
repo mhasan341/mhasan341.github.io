@@ -1,0 +1,20 @@
+{
+  "games": [
+    {
+      "slug": "bounce-courier",
+      "name": "Bounce Courier",
+      "genre": "Precision platformer",
+      "status": "Available on iOS",
+      "released": true,
+      "description": "A little robot. One precious parcel. Aim, launch, and find a way through wonderfully unforgiving worlds.",
+      "image": "/games/bounce-courier/assets/screenshots/cataract-pass-2868-lossless.webp",
+      "imageAlt": "Bounce Courier gameplay in a turquoise waterfall gorge.",
+      "width": 2868,
+      "height": 1320,
+      "imageLabel": "Gameplay",
+      "icon": "/games/bounce-courier/assets/app-icon-256.webp",
+      "iosStoreURL": "https://apps.apple.com/us/app/bounce-courier/id6825351308",
+      "androidStoreURL": null
+    }
+  ]
+}

@@ -4,119 +4,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mahmudul Hasan - iOS Developer</title>
+  <title>Mahmudul Hasan · Mobile Engineer &amp; Independent Game Developer</title>
+  <meta name="description" content="Mobile applications used by millions. Independent games built with curiosity. Explore the work and games of Mahmudul Hasan.">
+  <link rel="canonical" href="https://www.mahmudulhasan.me/">
+  <link rel="icon" href="/games/assets/mark.svg">
+  <meta property="og:title" content="Mahmudul Hasan · Apps &amp; Games">
+  <meta property="og:description" content="Explore my mobile applications and independent games.">
+  <meta property="og:image" content="https://www.mahmudulhasan.me/profile-avatar.png">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/games/catalog.css">
+  <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
-  <!-- Header -->
-  <!-- Branding -->
-<!--  <div class="brand-container">-->
-<!--    <div class="monogram">MH</div>-->
-<!--  </div>-->
-
-  <!-- Floating Dock Navigation -->
-  <nav class="dock-container">
-    <ul class="dock">
-      <li class="dock-item" style="--i:0">
-        <a href="#home" aria-label="Home">
-          <i class="fas fa-home"></i>
-          <span class="dock-tooltip">Home</span>
-        </a>
-      </li>
-      <li class="dock-item" style="--i:1">
-        <a href="#projects" aria-label="Projects">
-          <i class="fas fa-code-branch"></i>
-          <span class="dock-tooltip">Projects</span>
-        </a>
-      </li>
-      <li class="dock-item" style="--i:2">
-        <a href="#experience" aria-label="Experience">
-          <i class="fas fa-briefcase"></i>
-          <span class="dock-tooltip">Experience</span>
-        </a>
-      </li>
-      <li class="dock-item" style="--i:3">
-        <a href="#skills" aria-label="Skills">
-          <i class="fas fa-layer-group"></i>
-          <span class="dock-tooltip">Skills</span>
-        </a>
-      </li>
-      <li class="dock-item" style="--i:4">
-        <a href="#contact" aria-label="Contact">
-          <i class="fas fa-paper-plane"></i>
-          <span class="dock-tooltip">Contact</span>
-        </a>
-      </li>
-      <li class="dock-item" style="--i:5">
-        <a href="#games" aria-label="Games"><i class="fas fa-gamepad"></i><span class="dock-tooltip">Games</span></a>
-      </li>
-      <li class="dock-divider"></li>
-      <li class="dock-item" style="--i:6">
-        <button id="theme-toggle" class="dock-btn" aria-label="Toggle Dark Mode">
-          <i class="fas fa-moon"></i>
-        </button>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="container">
-      <div class="hero-content">
-        <div class="profile-img-container">
-          <div class="profile-float-wrapper">
-            <div class="profile-tilt-wrapper">
-              <img src="profile-avatar.png" alt="Mahmudul Hasan" class="profile-img">
-            </div>
-          </div>
-        </div>
-        <h1>Mahmudul Hasan</h1>
-        <p class="role">Application Engineer & Architect</p>
-        <p class="subtitle">Building Secure, Scalable Mobile Systems Used by Millions</p>
-        <p class="description">Full-stack mobile engineer specializing in SwiftUI, Flutter, and Laravel for healthcare, enterprise, and consumer products.</p>
-
-        <div class="stats">
-          <div class="stat">
-            <span class="stat-number">2.3M+</span>
-            <div class="stat-label">App Downloads</div>
-          </div>
-          <div class="stat">
-            <span class="stat-number">8+</span>
-            <div class="stat-label">Years Experience</div>
-          </div>
-          <div class="stat">
-            <span class="stat-number">20+</span>
-            <div class="stat-label">Apps Delivered</div>
-          </div>
-
-        </div>
-
-        <p>Experience across healthcare, real-time systems, and enterprise platforms.</p>
-
-        <div class="social-links">
-          <a href="https://github.com/mhasan341" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/mahmudul-dev/" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="mailto:mm@letstangerine.com"><i class="fas fa-envelope"></i></a>
-        </div>
-      </div>
-    </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="home-header container"><a class="home-brand" href="/" aria-label="Mahmudul Hasan home"><img src="/games/assets/mark.svg" width="40" height="40" alt=""><span>Mahmudul Hasan</span></a><nav class="home-nav" aria-label="Main"><a href="#projects">Work</a><a href="/games/">Games</a><a href="#experience" class="nav-about">Experience</a><a href="#contact">Contact</a><button id="theme-toggle" class="theme-button" type="button" aria-label="Switch to dark theme" aria-pressed="false"><span aria-hidden="true">◐</span></button></nav></header>
+  <main id="main">
+  <section id="home" class="intro container" aria-labelledby="intro-title">
+    <div class="intro-copy"><p class="intro-eyebrow">Application Engineer &amp; Architect</p><h1 id="intro-title">Built with purpose.<br><em>A little play, too.</em></h1><p class="intro-description">I’m Mahmudul. I build mobile systems used by millions—and independent games that make room for a little adventure.</p><p class="intro-specialty">SwiftUI · Flutter · Laravel · Native game development</p><div class="intro-actions"><a href="#projects" class="home-button">Explore my work <span aria-hidden="true">↗</span></a><a href="/games/" class="home-text-link">Discover my games <span aria-hidden="true">→</span></a></div><div class="intro-socials"><a href="https://github.com/mhasan341" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/mahmudul-dev/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="mailto:mm@letstangerine.com">Say hello ↗</a></div></div>
+    <div class="intro-visual"><div class="portrait-frame"><img src="profile-avatar.png" width="1024" height="1024" alt="Illustrated portrait of Mahmudul Hasan" fetchpriority="high"><div class="portrait-caption"><span>Engineer by craft.<br>Creator by curiosity.</span><span aria-hidden="true">↗</span></div></div><a class="studio-tag" href="/games/"><span class="studio-icons"><img src="/games/bounce-courier/assets/app-icon-256.webp" width="42" height="42" alt=""></span><span>A little room for play <span aria-hidden="true">→</span></span></a></div>
   </section>
+  <div class="home-proof container" aria-label="Experience at a glance"><div><strong>2.3M+</strong><span>App downloads</span></div><div><strong>8+</strong><span>Years of experience</span></div><div><strong>20+</strong><span>Apps delivered</span></div><p>From healthcare and enterprise<br>to worlds made for play.</p></div>
 
   <!-- Main Content -->
   <div class="main-content">
-    <section id="games" class="portfolio-games section">
-      <div class="container">
-        <div class="portfolio-games-heading"><h2 class="section-title">A little room for play.</h2><a href="/games/">Explore my games <span aria-hidden="true">↗</span></a></div>
-        <a class="courier-feature" href="/games/bounce-courier/">
-          <div class="courier-feature-copy"><span class="courier-kicker">INDEPENDENT GAME · iPHONE &amp; iPAD</span><img src="/games/bounce-courier/assets/app-icon-256.webp" width="60" height="60" alt="" loading="lazy"><h3>Bounce Courier</h3><p>A little robot. One precious parcel. A world of beautifully unreasonable ways to get there.</p><span class="courier-feature-link">Enter the world <span aria-hidden="true">↗</span></span></div>
-          <img class="courier-feature-scene" src="/games/bounce-courier/assets/screenshots/cataract-pass-2868-lossless.webp" width="2868" height="1320" alt="Bounce Courier gameplay: stone landings rise through a turquoise waterfall gorge." loading="lazy">
-        </a>
-      </div>
-    </section>
+    <section id="games" class="portfolio-games section" aria-labelledby="home-games-title"><div class="container"><div class="home-section-heading"><div><p class="home-eyebrow">The independent side</p><h2 class="section-title" id="home-games-title">A little room for play.</h2><p>Independent games, made with curiosity and a little challenge.</p></div><a href="/games/" class="home-text-link">All my games <span aria-hidden="true">↗</span></a></div><div class="game-grid single-game"><article class="game-card bounce-courier">
+ <a class="game-art" href="/games/bounce-courier/" aria-label="Explore Bounce Courier"><img src="/games/bounce-courier/assets/screenshots/cataract-pass-2868-lossless.webp" width="2868" height="1320" alt="Bounce Courier gameplay in a turquoise waterfall gorge." loading="lazy"><span class="art-label">Gameplay</span></a>
+ <div class="game-card-body"><div class="game-meta"><span>Precision platformer</span><span class="game-status available">Available on iOS</span></div><h3><a href="/games/bounce-courier/">Bounce Courier</a></h3><p>A little robot. One precious parcel. Aim, launch, and find a way through wonderfully unforgiving worlds.</p><a class="game-open" href="/games/bounce-courier/">Explore the game <span aria-hidden="true">↗</span></a></div></article></div></div></section>
     <!-- Featured Projects -->
     <section id="projects" class="section">
       <div class="container">
@@ -160,7 +77,7 @@
               <span class="tech-tag">Internationalization</span>
             </div>
             <div class="project-links">
-              <a href="https://apps.apple.com/ch/app/namazstart/id6444265376" target="_blank" class="project-link">
+              <a href="https://apps.apple.com/ch/app/namazstart/id6444265376" target="_blank" rel="noopener noreferrer" class="project-link">
                 <i class="fab fa-apple"></i> App Store
               </a>
               <a href="https://play.google.com/store/apps/details?id=me.mahmudulhasan.salat_app" target="_blank"
@@ -185,7 +102,7 @@
               <span class="tech-tag">Healthcare APIs</span>
             </div>
             <div class="project-links">
-              <a href="https://housecall.ae" target="_blank" class="project-link">
+              <a href="https://housecall.ae" target="_blank" rel="noopener noreferrer" class="project-link">
                 <i class="fas fa-external-link-alt"></i> Website
               </a>
             </div>
@@ -207,7 +124,7 @@
               <span class="tech-tag">Location Services</span>
             </div>
             <div class="project-links">
-              <a href="https://apps.apple.com/us/app/trapspy/id1403138498" target="_blank" class="project-link">
+              <a href="https://apps.apple.com/us/app/trapspy/id1403138498" target="_blank" rel="noopener noreferrer" class="project-link">
                 <i class="fab fa-apple"></i> App Store
               </a>
             </div>
@@ -229,7 +146,7 @@
               <span class="tech-tag">Biometric Auth</span>
             </div>
             <div class="project-links">
-              <a href="https://github.com/mhasan341/jigger-demo" target="_blank" class="project-link">
+              <a href="https://github.com/mhasan341/jigger-demo" target="_blank" rel="noopener noreferrer" class="project-link">
                 <i class="fab fa-github"></i> GitHub
               </a>
             </div>
@@ -251,7 +168,7 @@
               <span class="tech-tag">GPS Tracking</span>
             </div>
             <div class="project-links">
-              <a href="https://apps.apple.com/in/app/pragati-utrack/id6472572087" target="_blank" class="project-link">
+              <a href="https://apps.apple.com/in/app/pragati-utrack/id6472572087" target="_blank" rel="noopener noreferrer" class="project-link">
                 <i class="fab fa-apple"></i> App Store
               </a>
             </div>
@@ -427,16 +344,16 @@
     <section id="contact" class="section">
       <div class="container">
         <div class="contact-info">
-          <h2 class="contact-title">Let's Build Something Amazing</h2>
+          <h2 class="contact-title">Have something in mind?</h2>
           <p>Need help building a fast, reliable mobile app or backend system? Let’s talk.</p>
           <div class="contact-links">
             <a href="mailto:mm@letstangerine.com" class="contact-link">
               <i class="fas fa-envelope"></i> Email
             </a>
-            <a href="https://www.linkedin.com/in/mahmudul-dev/" target="_blank" class="contact-link">
+            <a href="https://www.linkedin.com/in/mahmudul-dev/" target="_blank" rel="noopener noreferrer" class="contact-link">
               <i class="fab fa-linkedin"></i> LinkedIn
             </a>
-            <a href="https://github.com/mhasan341" target="_blank" class="contact-link">
+            <a href="https://github.com/mhasan341" target="_blank" rel="noopener noreferrer" class="contact-link">
               <i class="fab fa-github"></i> GitHub
             </a>
           </div>
@@ -444,6 +361,8 @@
       </div>
     </section>
   </div>
+
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
