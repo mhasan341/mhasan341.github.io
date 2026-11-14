@@ -23,6 +23,7 @@ function chooseWorld(index) {
   selectedWorld = (index + worldChoices.length) % worldChoices.length;
   const choice = worldChoices[selectedWorld];
   worldChoices.forEach(item => item.setAttribute('aria-pressed', String(item === choice)));
+  worldImage.srcset = choice.dataset.srcset;
   worldImage.src = choice.dataset.image;
   worldImage.alt = choice.dataset.alt;
   worldTitle.textContent = choice.dataset.title;
@@ -36,10 +37,32 @@ document.querySelector('[data-world-next]')?.addEventListener('click', () => cho
 const viewer = document.querySelector('#screenshot-viewer');
 const viewerImage = document.querySelector('#viewer-image');
 const viewerTitle = document.querySelector('#viewer-title');
+const originalLink = document.querySelector('#original-screenshot');
+let viewerLoad = 0;
 function refreshViewer() {
-  viewerImage.src = worldImage.src;
-  viewerImage.alt = worldImage.alt;
-  viewerTitle.textContent = worldTitle.textContent + ' · Actual iPhone gameplay';
+  const choice = worldChoices[selectedWorld];
+  const load = ++viewerLoad;
+  viewerImage.hidden = true;
+  viewer.setAttribute('aria-busy', 'true');
+  viewerTitle.textContent = choice.dataset.title;
+  originalLink.href = choice.dataset.original;
+  viewer.style.width = `min(96vw, 1500px, ${2868 / Math.max(1, window.devicePixelRatio)}px)`;
+  const original = new Image();
+  original.onload = () => {
+    if (load !== viewerLoad) return;
+    viewerImage.src = original.src;
+    viewerImage.alt = choice.dataset.alt;
+    viewerImage.hidden = false;
+    viewer.setAttribute('aria-busy', 'false');
+  };
+  original.onerror = () => {
+    if (load !== viewerLoad) return;
+    viewerImage.src = choice.dataset.full;
+    viewerImage.alt = choice.dataset.alt;
+    viewerImage.hidden = false;
+    viewer.setAttribute('aria-busy', 'false');
+  };
+  original.src = choice.dataset.original;
 }
 document.querySelectorAll('[data-open-viewer]').forEach(button => button.addEventListener('click', () => {
   if (button.dataset.openViewer === 'hero') chooseWorld(1);
