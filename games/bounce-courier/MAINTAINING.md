@@ -10,7 +10,9 @@ The apex domain redirects to www. Keep the repository's existing CNAME.
   download links and VideoGame structured data.
 - `site.css`, `site.js`: styles and progressively enhanced interactions, scoped
   to the game pages. The shared catalog uses `../catalog.css`. No framework
-  or package install is needed.
+  or package install is needed. `../../theme.js` and `../../theme.css` share
+  the homepage theme preference; keep their early head loading and header
+  control on the game and all four information pages.
 - `support/`, `privacy/`, `terms/`, `licenses/`: public player information.
 - `assets/`: real gameplay captures, original icon derivatives, self-hosted
   Outfit font and its OFL license. No external font/CDN/analytics scripts here.
