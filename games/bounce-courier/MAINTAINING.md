@@ -6,15 +6,16 @@ The apex domain redirects to www. Keep the repository's existing CNAME.
 
 ## Files and publishing
 
-- `index.html`: game landing, release preview notice, gallery, tier panels, FAQ,
+- `index.html`: game landing, gallery, tier panels, FAQ,
   download links and VideoGame structured data.
 - `site.css`, `site.js`: styles and progressively enhanced interactions, scoped
-  to the game pages and games hub. No framework or package install is needed.
+  to the game pages. The shared catalog uses `../catalog.css`. No framework
+  or package install is needed.
 - `support/`, `privacy/`, `terms/`, `licenses/`: public player information.
 - `assets/`: real gameplay captures, original icon derivatives, self-hosted
   Outfit font and its OFL license. No external font/CDN/analytics scripts here.
-- `../index.html`: games hub. Root `index.html` and `styles.css` contain the
-  portfolio's Games navigation and featured game.
+- `../index.html`: shared games catalog; see `../README.md`. Root `index.html`,
+  `home.css`, and `styles.css` contain the portfolio and its games feature.
 - Root `app-ads.txt`, `robots.txt`, `sitemap.xml`: domain discovery resources.
 
 Edit the HTML/CSS/JS directly. Preview from the repository root with
@@ -22,7 +23,8 @@ Edit the HTML/CSS/JS directly. Preview from the repository root with
 `http://127.0.0.1:8765/games/bounce-courier/`. A file URL does not resolve
 the root-relative links correctly.
 
-Create a feature branch from the latest `main`, check desktop/mobile and
+Only publish after explicit owner approval of the local preview. Create a
+feature branch from the latest `main`, check desktop/mobile and
 keyboard interactions, open a pull request and merge it through GitHub. The
 main branch has a pull-request rule; do not bypass it with a direct main push. Verify the GitHub Pages
 deployment and the public URLs before pointing a release build at new paths.
@@ -100,7 +102,7 @@ When the Android build is ready:
 | Licenses | https://www.mahmudulhasan.me/games/bounce-courier/licenses/ |
 | Advertising seller file | https://mahmudulhasan.me/app-ads.txt |
 
-Support email stays `hello@hajjuna.com`. The Firebase owner dashboard is a
+Support email stays `mm@letstangerine.com`. The Firebase owner dashboard is a
 separate, access-controlled tool; never turn this public site into an owner
 login page. A public Player ID is a support reference, not a password.
 
