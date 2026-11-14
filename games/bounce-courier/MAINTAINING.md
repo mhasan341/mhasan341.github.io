@@ -23,28 +23,32 @@ Edit the HTML/CSS/JS directly. Preview from the repository root with
 the root-relative links correctly.
 
 Create a feature branch from the latest `main`, check desktop/mobile and
-keyboard interactions, merge and push to `main`. Verify the GitHub Pages
+keyboard interactions, open a pull request and merge it through GitHub. The
+main branch has a pull-request rule; do not bypass it with a direct main push. Verify the GitHub Pages
 deployment and the public URLs before pointing a release build at new paths.
 Do not overwrite unrelated local changes in the portfolio checkout.
 
-## Release state on 14 November 2026
+## Release context and screenshot quality
 
-The live Apple listing was version **1.0**, while these captures show the
-upcoming **1.1** graphics and worlds update. This is deliberately visible in
-the hero, image captions, FAQ, games hub, portfolio feature and policy/help
-qualifications. Publishing this website does not publish an app update.
+The Apple listing was version1.0 at the14November2026 lookup; the source
+captures were made from the native1.1 update. Verify the current store listing
+before making a version-specific availability claim. On15November the owner
+requested clean marketing pages without release-version labels. Do not
+reintroduce “Actual gameplay from the upcoming1.1 update” or similar captions
+in the hero, gallery, viewer, games hub or portfolio feature.
 
-Once 1.1 is actually available, update those notices and the social description
-together. Search for `1.0`, `1.1`, `upcoming`, `prepared` and `preview` in the
-game pages, games hub and portfolio feature; change release context without
-mislabeling screenshots. Keep historical legal dates and asset provenance.
-Do not invent a release date, review score, download statistic or store status.
+Screenshots under `assets/screenshots/` have lossless WebP variants at640,
+1280,1920 and the native2868pixels wide. Main images use srcset and sizes so
+Retina displays receive enough actual pixels. Never cap the main gallery at
+1280 or reuse thumbnail-sized files in the viewer. At1320CSSpixels on a2x
+display, an image needs at least2640source pixels. Do not upscale a small
+capture or recompress an existing lossy derivative.
 
-The original App Store icon is retained. Gameplay screenshots are from the
-native app, compressed without changing their contents. The local game project
-keeps the uncompressed App Store captures and a hashed derivative manifest.
-Do not replace the app icon or menu style with Blender artwork. Blender is for
-gameplay and related scenery. Android screenshots must come from Android.
+The viewer loads the byte-identical2868×1320originalPNG on demand. Its Open
+original link makes that file available directly. Before opening the viewer,
+those large PNGs should not be downloaded. The existing original app icon is
+unchanged. Gameplay screenshots are actual native captures, not reconstructed
+or retouched scenes. Android screenshots must come from Android.
 
 ## Store links and the Android / Google Play follow-up
 
