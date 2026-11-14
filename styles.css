@@ -1153,3 +1153,15 @@ body.dark-mode .dock {
         justify-content: center;
     }
 }
+
+/* Independent games — scoped to the portfolio feature. */
+.portfolio-games-heading{display:flex;align-items:baseline;justify-content:space-between;gap:24px;margin-bottom:32px}
+.portfolio-games-heading .section-title{margin-bottom:0}.portfolio-games-heading>a{color:var(--text-color);font-size:14px;text-underline-offset:5px;white-space:nowrap}
+.courier-feature{display:grid;grid-template-columns:.9fr 1.1fr;background:#173c36;border:1px solid #b6c8b155;border-radius:24px;overflow:hidden;color:#f6f5ee;text-decoration:none;transition:box-shadow .2s}
+.courier-feature:hover{box-shadow:0 18px 48px #173c3626}.courier-feature:focus-visible{outline:3px solid var(--primary-color);outline-offset:5px}
+.courier-feature-copy{padding:40px;display:flex;flex-direction:column;align-items:flex-start}.courier-kicker{font-size:9px;letter-spacing:.16em;color:#ddf367;margin-bottom:24px}.courier-feature-copy>img{border-radius:15px;margin-bottom:18px}.courier-feature-copy h3{font-size:32px;letter-spacing:-.04em;line-height:1.2;color:#f6f5ee;margin-bottom:16px}.courier-feature-copy p{font-size:15px;line-height:1.7;color:#c4d1c6}.courier-feature-link{display:flex;gap:32px;align-items:center;border-radius:100px;padding:12px 20px;background:#ddf367;color:#173c36;font-size:13px;font-weight:600;margin-top:24px}.courier-feature-copy small{font-size:10px;color:#c4d1c6;margin-top:16px}.courier-feature-scene{width:100%;height:100%;object-fit:cover;object-position:center}
+@media(max-width:760px){.portfolio-games-heading{display:block}.portfolio-games-heading>a{display:inline-block;margin-top:18px}.courier-feature{grid-template-columns:1fr}.courier-feature-copy{padding:30px}.courier-feature-scene{aspect-ratio:2.17;height:auto;order:-1}.courier-feature-copy>img{width:44px;height:44px;border-radius:12px}.courier-feature-copy h3{font-size:29px}}
+@media(max-width:420px){.dock{gap:3px;padding:8px}.dock-item a,.dock-btn{width:38px;height:38px}.dock-divider{margin:0 2px}}
+
+/* Keep the decorative section word inside narrow phone viewports. */
+@media(max-width:420px){.section-title::after{font-size:4rem}.project-card{padding:1.5rem}}
