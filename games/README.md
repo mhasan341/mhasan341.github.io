@@ -25,8 +25,9 @@ never present one game's policy as applying to all games.
 
 For future additions, repeat `.game-card` entries in the homepage and catalog,
 update `catalog.json`, and remove `.single-game` from each grid once it contains
-multiple entries. Only add verified download URLs. No Android store link is
-available yet; its metadata is null and must not produce a download button.
+multiple entries. Only add verified download URLs. Bounce Courier is available on Google Play at
+`https://play.google.com/store/apps/details?id=me.mahmudulhasan.bouncecourier`.
+Keep the homepage, catalog HTML and catalog.json store links in sync.
 Preserve full-resolution gameplay assets and distinguish real captures from art.
 
 ## Theme behavior

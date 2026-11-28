@@ -59,10 +59,12 @@ or retouched scenes. Android screenshots must come from Android.
 Current Apple URL:
 `https://apps.apple.com/us/app/bounce-courier/id6825351308`
 
-There is no public Android release or Google Play URL yet. The FAQ states
-this, and no fake/disabled Google Play download button is shown.
+Android 2.0.0 (7) was published on 28 November 2026. Public Google Play URL:
+`https://play.google.com/store/apps/details?id=me.mahmudulhasan.bouncecourier`
+The release supports Android 7.0+ on supported 64-bit devices. Store links appear
+on the homepage, games catalog, game landing page and game information pages.
 
-When the Android build is ready:
+For future Android listing updates:
 
 1. Confirm its actual package ID, production Play URL, minimum Android version,
    published version, feature parity and countries/testing availability. A
